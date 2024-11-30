@@ -5,11 +5,7 @@ import Navbar from "../global/Navbar";
 import React, { ReactChildren } from "react";
 
 function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
-  const pageTitle = `${
-    currentPage === "Home"
-      ? "Brayden Wright - Web Developer, Designer, Creator."
-      : `${currentPage} - BraydenTW.io`
-  }`;
+  const pageTitle = "Kekajan - Full Stack Developer";
   console.log(currentPage);
   return (
     <div
@@ -41,12 +37,15 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
         <meta name="description" content={desc} />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://braydentw.io/" />
+        <meta
+          property="og:url"
+          content="https://kekajan-paramalingam.netlify.app/"
+        />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={desc} />
         <meta
           property="og:image"
-          content="https://braydentw.io/static/misc/og.png"
+          content="https://kekajan-paramalingam.netlify.app/"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
