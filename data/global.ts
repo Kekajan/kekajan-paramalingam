@@ -91,7 +91,7 @@ export const footer: Footer = {
         },
         {
           name: "Instagram",
-          link: "https://dribbble.com/braydentw",
+          link: "https://www.instagram.com/kekajan_pk04/profilecard/?igsh=MWNkdnVyd3liZHpl",
           icon: "/static/icons/2227.jpg",
           leavesWebsite: true,
         },
