@@ -25,8 +25,8 @@ const projects: Project[] = [
     title: "Vehicle Vista",
     desc: "Platform which connects people and vehicle service stations",
     img: "/static/projects/react-emoji-search.png",
-    link: "https://react-emoji-search.braydentw.vercel.app/",
-    github: "https://github.com/braydentw/react-emoji-search",
+    link: "https://github.com/Kekajan/vehicleVista",
+    github: "https://github.com/Kekajan/vehicleVista",
     tags: ["React", "Bootstrap", "PHP", "MySQL"],
   },
   {
